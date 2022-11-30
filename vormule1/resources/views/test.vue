@@ -1,1 +1,1 @@
-x
+Vue.extend({ template:template })
