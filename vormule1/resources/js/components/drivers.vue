@@ -1,5 +1,5 @@
 <template>
-    <div>drivers</div>
+    <div>Drivers</div>
 </template>
 
 <script>
