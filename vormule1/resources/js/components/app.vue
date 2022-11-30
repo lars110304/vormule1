@@ -44,7 +44,7 @@
             </div>
         </div>
     </nav>
-    <router-view class="p-3 bg-dark text-white background-color"> </router-view>
+    <router-view> </router-view>
 </template>
 
 <script>
