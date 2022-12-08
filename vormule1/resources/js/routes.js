@@ -4,6 +4,9 @@ import drivers from "./components/drivers.vue";
 import constructors from "./components/constructors.vue";
 import seasons from "./components/seasons.vue";
 import schedule from "./components/schedule.vue";
+import login from "./components/login.vue";
+import register from "./components/register.vue";
+import favorite from "./components/favorite.vue";
 
 const routes = [
     {
@@ -30,6 +33,21 @@ const routes = [
         path: "/schedule",
         name: "schedule",
         component: schedule,
+    },
+    {
+        path: "/login",
+        name: "login",
+        component: login,
+    },
+    {
+        path: "/register",
+        name: "register",
+        component: register,
+    },
+    {
+        path: "/favorite",
+        name: "favorite",
+        component: favorite,
     },
 ];
 
